@@ -1,0 +1,30 @@
+body,
+textarea,
+input {
+    font: 13px "Helvetica", sans-serif;
+}
+.chat {
+    max-width: 300px;
+}
+
+.chat-messages,
+.chat-textarea,
+.chat-name {
+    width: 100%;
+    border: 1px solid #bbb;
+    padding: 1em;
+    margin 1em;
+}
+
+.chat-name {
+}
+
+.chat-messages {
+    height: 10em;
+    overflow: scroll;
+}
+
+.chat-textarea {
+    height: 3em;
+}
+

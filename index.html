@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Chat</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <div class="chat">
+        <input id="name" type="text" class="chat-name" placeholder="Enter Your Name">
+
+        <div class="chat-messages"> </div>
+        <textarea id="message" class="chat-textarea" cols="30" rows="10" placeholder="Type your message"></textarea>
+        <div>Status: <span class="chat-status">Idle</span>
+        </div>
+    </div>
+
+    <script src="http://localhost:8080/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>
+
+</html>
