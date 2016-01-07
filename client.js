@@ -25,7 +25,7 @@
 
 
     try {
-        var socket = io.connect('http://localhost:8080');
+        var socket = io.connect('http://chatserver007.cloudapp.net:8080');
     } catch (e) {
         console.error(e);
         //set display status
